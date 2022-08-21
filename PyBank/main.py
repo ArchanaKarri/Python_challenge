@@ -6,16 +6,13 @@ import sys
 # Set working directory to where this Python file is
 os.chdir(os.path.dirname(__file__))
 file=os.getcwd() # Current working directory name is stored in variable file
-# Optional: print the current working directory
-#print("This program is running from: " + os.getcwd())
 #-----------------------------------------------------
 pybank_csv=os.path.join(file,"Resources/budget_data.csv") # Setting path variable to the location where the csv file is stored
 
 with open(pybank_csv,'r') as csv_file: #Opening the csv file in reading mode using the stored path variable
      csv_reader= csv.reader(csv_file,delimiter=",") # Reading the csv file and setting the delimiter as ","
      csv_header=next(csv_file) # Retrieving the Csv header information from the Csv file
-     
-     
+  
      total_rows=0
      col=[]
      avg_change=[]
