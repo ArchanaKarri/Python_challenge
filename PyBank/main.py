@@ -58,7 +58,7 @@ with open(pybank_csv,'r') as csv_file: #Opening the csv file in reading mode usi
      print("Total Profit/Loss: $"+ str(total_profitloss))
      print("Average change: $"+ str(avg_changeval))
      print("Greatest Increase in profits:"+ str(incdate) + " ($" +str(incprofit)+")")
-     print("Greatest Derease in profits:"+ str(decdate) + " ($" +str(decprofit)+ ")")
+     print("Greatest Decrease in profits:"+ str(decdate) + " ($" +str(decprofit)+ ")")
      
       # this section writes the oputput in a text file which is in the Analysis folder
      sys.stdout = open("Analysis/test.txt", "w")
@@ -68,7 +68,7 @@ with open(pybank_csv,'r') as csv_file: #Opening the csv file in reading mode usi
      print("Total Profit/Loss: $"+ str(total_profitloss))
      print("Average change: $"+ str(avg_changeval))
      print("Greatest Increase in profits:"+ str(incdate) + " ($" +str(incprofit)+")")
-     print("Greatest Derease in profits:"+ str(decdate) + " ($" +str(decprofit)+ ")")
+     print("Greatest Decrease in profits:"+ str(decdate) + " ($" +str(decprofit)+ ")")
      sys.stdout.close()  
      
     
