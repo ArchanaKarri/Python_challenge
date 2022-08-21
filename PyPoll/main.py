@@ -7,8 +7,6 @@ from tkinter import N
 # Set working directory to where this Python file is
 os.chdir(os.path.dirname(__file__))
 file=os.getcwd() # Current working directory name is stored in variable file
-# Optional: print the current working directory
-#print("This program is running from: " + os.getcwd())
 #-----------------------------------------------------
 pypoll_csv=os.path.join(file,"Resources/election_data.csv") # Sets the path variable to get the location of csv file by using join 
 with open(pypoll_csv,'r') as csv_file:                  # opening csv file in read mode using the path variable
@@ -18,7 +16,6 @@ with open(pypoll_csv,'r') as csv_file:                  # opening csv file in re
      total_rows=0  
      col=[]
      uniqval=''                                     # This variable holds the name of unique variable the contestant
-     county=[]                                        #this list holds the list of County in the given data
      names=[]
      uniqcounty=''
      count=0
@@ -39,8 +36,7 @@ with open(pypoll_csv,'r') as csv_file:                  # opening csv file in re
       return(count)                        # countvotes is returning the count value to the variable where the function is called
       
      for row in csv_reader:
-      #if uniqcounty!=row[1]:              optional code if name of county needs to be captured
-       #county.append(row[1])
+     
       list.append(row[2])                # This list holds the data of all votes casted for each contestant
       if uniqval==row[2]:         
         count=count+1
