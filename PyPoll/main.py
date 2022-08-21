@@ -1,8 +1,6 @@
-from ast import If
 import os
 import csv
 import sys
-from tkinter import N
 #-----------------------------------------------------
 # Set working directory to where this Python file is
 os.chdir(os.path.dirname(__file__))
