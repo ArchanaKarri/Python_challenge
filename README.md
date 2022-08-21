@@ -1,6 +1,8 @@
 # Python_challenge
 This Pyhton challenge contains 2 different programs. One is for PyBank and the other one is for PyPoll.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 PyBank 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 We used a Python script to analyse the financial records of a company with the  given  financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
 My Python scrip  analyses the records to calculate each of the following values:
@@ -25,8 +27,9 @@ Average Change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
 With this code, my final script is analysed and the output is printed to the terminal and copy of it is exported to a text file named test.txt  in the Analysis folder with the results.
-
-PyPoll Instructions
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PyPoll
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 In this Challenge, my code is tasked with helping a small, rural U.S. town modernise its vote-counting process.
 
 With the  given  set of poll data called election_data.csv. The dataset is composed of three columns: "Voter ID", "County", and "Candidate". My code  is to create a Python script that analyzes the votes and calculates each of the following values:
