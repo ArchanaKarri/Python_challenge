@@ -27,7 +27,7 @@ with open(pypoll_csv,'r') as csv_file:                  # opening csv file in re
      list=[]
 
 
-     def countvotes(list, x,votes):          # Defiing function to count the total votes by taking list , contestant name and total votes casted
+     def countvotes(list, x,votes):          # Defining function to count the total votes by taking list , contestant name and total votes casted
       count = 0
       local=0
       percent=0
